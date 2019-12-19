@@ -290,6 +290,7 @@ DEPENDENCIES
   devise
   draper
   jbuilder (~> 2.7)
+  jquery-rails
   mysql2 (>= 0.4.4)
   puma (~> 4.1)
   pundit
