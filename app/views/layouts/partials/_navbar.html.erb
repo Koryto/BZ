@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
       <%= image_tag("bzlogo.jpg", size: "45") %>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +17,7 @@
             <a class="nav-link" <%= link_to "Logout", destroy_user_session_path, :method => :delete %></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" <%= link_to "Assignments", "assignments#index", :method => :delete %></a>
+            <a class="nav-link" href="/assignments/index">Assignments</a>
           </li>
       </ul>
     </div>
