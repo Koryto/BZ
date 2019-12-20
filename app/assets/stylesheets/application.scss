@@ -1,5 +1,7 @@
 @import "bootstrap";
-
+body {
+    background-color: lighten($color: gray, $amount: 10);
+}
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
