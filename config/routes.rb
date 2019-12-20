@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'demo/new'
+  get 'demo/show'
+  get 'demo/index'
   get 'assignments/index'
   get 'assignments/show'
   devise_for :admin_users, ActiveAdmin::Devise.config
