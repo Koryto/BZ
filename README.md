@@ -1,24 +1,3 @@
-# README
+# HackTAU
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This repository contains 6-hours work made by me and 2 more friends in our hackathon project: Creation of a web-app flow for a student time management app.
